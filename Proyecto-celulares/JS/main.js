@@ -1,4 +1,4 @@
-//alert("Bienvenid@ a Mates Bien Argentino")
+alert("Bienvenid@ a Mates Bien Argentino")
 
 function sesion() {
    const admin = {
@@ -16,7 +16,7 @@ function sesion() {
       alert("El usuario y/o password son incorrectos, por favor inicie sesion")
    }
 }
-
+sesion()
 
 //buscar
 function buscarProductos() {
@@ -28,6 +28,7 @@ function buscarProductos() {
        console.table(resultado)
    }
 }
+buscarProductos()
 
 //filtrar
 function filtrarProducto() {
@@ -39,10 +40,11 @@ function filtrarProducto() {
       console.table(productosQuePodesComprar)
    }
 }
+filtrarProducto()
 
 
 //si quieren ver nuestros productos
-/*
+
 let IVA = 1.21
 let consulta = confirm("Deseas saber que tenemos?")
 if (consulta === true){
@@ -153,5 +155,4 @@ if (consulta === true){
    
 }
 
-  */
 
