@@ -1,0 +1,113 @@
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 3%;
+}
+.card-container .card {
+  position: inherit;
+  margin-top: 3%;
+  width: 44%;
+}
+.card-container .card img {
+  height: 70%;
+}
+
+main {
+  height: 100%;
+  width: 100%;
+}
+
+footer {
+  position: inherit;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+header {
+  background-color: white;
+  position: sticky;
+  top: 0;
+}
+
+.header-container {
+  height: 100%;
+  display: flex;
+  justify-content: space-around;
+  box-shadow: 1px 1px 6px black;
+}
+.header-container .logo {
+  margin-top: 2%;
+  width: 69%;
+}
+.header-container .login {
+  margin-top: 2%;
+  width: 31%;
+}
+.header-container .login ul {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+}
+
+nav {
+  width: 100%;
+  height: 100%;
+  background-color: rgb(231, 134, 7);
+}
+nav ul li {
+  list-style: none;
+}
+nav ul li:hover {
+  background-color: black;
+}
+nav ul a:hover {
+  color: white;
+}
+nav ul.hover {
+  background-color: black;
+  color: white;
+}
+nav .marcas {
+  margin-top: 3%;
+  height: 100%;
+  width: 100%;
+}
+nav .marcas ul {
+  display: flex;
+  justify-content: space-around;
+  background-color: aqua;
+  margin-left: -5%;
+}
+
+footer {
+  text-align: center;
+}
+
+.arriba-container {
+  display: flex;
+  justify-content: space-between;
+}
+.arriba-container div {
+  margin-left: -5%;
+}
+.arriba-container div ul {
+  font-size: 20px;
+}
+.arriba-container div ul li {
+  list-style: none;
+}
+
+.abajo-container {
+  background-color: aqua;
+  display: flex;
+  font-size: 11px;
+}
+
+.abajo-container2 {
+  display: flex;
+  justify-content: space-between;
+}/*# sourceMappingURL=Style.css.map */

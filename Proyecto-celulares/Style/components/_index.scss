@@ -1,0 +1,22 @@
+.card-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;    
+    gap: 3%;
+    
+    .card{
+        img{
+            height: 70%;
+        }
+        position: inherit;
+        margin-top: 3%;
+        width: 44%;
+    }
+}
+main{
+    height: 100%;
+    width: 100%;
+}
+footer{
+    position: inherit;
+}

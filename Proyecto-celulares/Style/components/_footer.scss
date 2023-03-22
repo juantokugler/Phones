@@ -1,0 +1,27 @@
+footer{
+    text-align: center;
+}
+.arriba-container{
+    display: flex;
+    justify-content: space-between;
+    div{
+        margin-left: -5%;
+        ul{
+            font-size: 20px;
+            li{
+                list-style: none;
+                
+            }
+        }
+    }
+}
+
+.abajo-container{
+    background-color: aqua;
+    display: flex;
+    font-size: 11px;
+}
+.abajo-container2{
+    display: flex;
+    justify-content: space-between;
+}

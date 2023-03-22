@@ -1,0 +1,15 @@
+{
+	"folders": [
+		{
+			"name": "Proyecto-celulares",
+			"path": "."
+		},
+		{
+			"name": "Tienda de Ropa - Base 2",
+			"path": "../../Downloads/Tienda de Ropa - Base 2"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "Proyecto-celulares"
+	}
+}

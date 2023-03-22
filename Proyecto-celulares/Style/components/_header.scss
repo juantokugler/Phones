@@ -1,0 +1,71 @@
+
+a{
+    text-decoration: none;
+    color: black;
+}
+header{
+    background-color: white;
+    position: sticky;
+    top: 0;
+}
+.header-container{
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    box-shadow: 1px 1px 6px black;
+    .logo{
+        margin-top: 2%;
+        width: 69%;
+    }
+    
+    .login{
+        margin-top: 2%;
+        width: 31%;
+        ul{
+            display: flex;
+            justify-content: space-between;
+            list-style: none;
+        }
+    }
+}
+nav{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(231, 134, 7);
+    ul{
+        li{
+            
+            list-style: none;
+        }
+        li:hover{
+            background-color: black;
+            
+        }
+        a:hover{
+            color: white;
+        }
+    }
+    ul.hover{
+        background-color: black;
+        color: white;
+    }
+
+
+.marcas{
+    margin-top: 3%;
+    height: 100%;
+    width: 100%;
+    ul{
+        display: flex;
+        justify-content: space-around; 
+        background-color: aqua;
+        margin-left: -5%;
+    }
+}
+}
+
+
+
+
+
+
